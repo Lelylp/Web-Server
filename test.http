@@ -1,0 +1,14 @@
+###
+GET http://localhost:3000
+
+###
+GET http://localhost:3000/2
+
+###
+POST http://localhost:3000/bet
+Content-Type: application/json
+
+    {   
+        "jogo": "Santa x sei lá",
+        "valor": 200 
+    }
